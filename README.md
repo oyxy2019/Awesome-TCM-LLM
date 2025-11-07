@@ -1,13 +1,11 @@
 # Awesome-TCM-LLM
 
-此仓库整理了现有中医药大模型(TCM-LLM)相关资源，旨在为研究人员提供全面的参考。
+此仓库整理了现有中医药大模型(TCM-LLM)相关资源，并按照时间排序，旨在为研究人员提供全面的参考。
 
 欢迎通过PR参与贡献，共同促进中医药人工智能发展。
 
 # 目录
 
-- [Awesome-TCM-LLM](#awesome-tcm-llm)
-- [目录](#目录)
 - [基准数据集](#基准数据集)
     - [纯文本【TODO】](#纯文本todo)
     - [多模态](#多模态)
@@ -49,11 +47,11 @@
 
 ### 多模态
 
-| **数据集** | **机构** | **时间** | **多模态** | **Size** | **Source** | **备注** |
-| --- | --- | --- | --- | --- | --- | --- |
-| ZhongJing-OMNI | 复旦大学 | 2024-10 | 图像、文本 | 暂无 | ZhongJing-OMNI: The First Multimodal Benchmark for Evaluating Traditional Chinese Medicine \[[repo](https://github.com/pariskang/ZhongJing-OMNI)\] \[[data](https://huggingface.co/datasets/CMLM/ZhongJing-OMNI)\] | 暂未开源 |
-| TCM-Ladder | 上海中医药大学 | 2025-05 | 图像、音频、视频、文本 | 52,169 | TCM-Ladder: A Benchmark for Multimodal Question Answering on Traditional Chinese Medicine \[[paper](https://arxiv.org/abs/2505.24063)\] \[[repo](https://github.com/orangeshushu/TCM-Ladder)\] \[[data](https://huggingface.co/datasets/timzzyus/TCM-Ladder)\] | 单诊独立评估 |
-| TCM-Text-Exams (ShizhenGPT) | 港中深FreedomAl | 2025-08 | 文本 | 1088 | ShizhenGPT: Towards Multimodal LLMs for Traditional Chinese Medicine \[[paper](https://arxiv.org/abs/2508.14706)\] \[[data](https://huggingface.co/datasets/FreedomIntelligence/TCM-Text-Exams)\] | 单诊独立评估，其他模态暂未开源 |
+| **数据集**                  | **机构**        | **时间** | **多模态**             | **Size** | **Source**                                                                                                                                                                                 | **备注**                       |
+| --------------------------- | --------------- | -------- | ---------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------ |
+| ZhongJing-OMNI              | 复旦大学        | 2024-10  | 图像、文本             | 暂无     | \[[repo](https://github.com/pariskang/ZhongJing-OMNI)\] \[[data](https://huggingface.co/datasets/CMLM/ZhongJing-OMNI)\]                                                                    | 暂未开源                       |
+| TCM-Ladder                  | 上海中医药大学  | 2025-05  | 图像、音频、视频、文本 | 52,169   | \[[paper](https://arxiv.org/abs/2505.24063)\] \[[repo](https://github.com/orangeshushu/TCM-Ladder)\] \[[data](https://huggingface.co/datasets/timzzyus/TCM-Ladder)\]                       | 单诊独立评估                   |
+| TCM-Text-Exams (ShizhenGPT) | 港中深FreedomAl | 2025-08  | 文本                   | 1088     | \[[paper](https://arxiv.org/abs/2508.14706)\] \[[repo](https://github.com/FreedomIntelligence/ShizhenGPT)\] \[[data](https://huggingface.co/datasets/FreedomIntelligence/TCM-Text-Exams)\] | 单诊独立评估，其他模态暂未开源 |
 
 # 综述
 
