@@ -7,8 +7,9 @@
 # 目录<!-- omit in toc -->
 
 - [基准数据集](#基准数据集)
-    - [纯文本【TODO】](#纯文本todo)
+    - [](#)
     - [多模态](#多模态)
+    - [纯文本](#纯文本)
 - [综述](#综述)
 - [方法（开源研究）](#方法开源研究)
     - [ShenNong-TCM](#shennong-tcm)
@@ -55,7 +56,7 @@
 | TCM-Tongue                  | 北京工商大学         | 2025-07  | 图像             | 5594:572:553 | [[paper](https://arxiv.org/pdf/2507.18288)] [[repo](https://github.com/btbuIntelliSense/Intelligent-tongue-diagnosis-detection-dataset)] | 包含目标检测                   |
 | Chinese pulse pattern (TCM) | 天津职业技术师范大学 | 2023-07  | 脉象             | 暂无         | [[data](https://www.scidb.cn/detail?dataSetId=05669defa1344275b6f4557c771d131c)] | 需要申请                       |
 
-### 文本
+### 纯文本
 
 | **数据集** | **机构**     | **时间** | **类型** | **Size** | **Source**                                                   | **备注** |
 | ---------- | ------------ | -------- | -------- | -------- | ------------------------------------------------------------ | -------- |
