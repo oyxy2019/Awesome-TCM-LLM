@@ -42,19 +42,25 @@
 
 # 基准数据集
 
-### 纯文本【TODO】
-待更新
+### 
+
 
 ### 多模态
 
-| **数据集**                  | **机构**             | **时间** | **多模态**       | **Size**                               | **Source**                                                                                                                                                                           | **备注**                       |
-| --------------------------- | -------------------- | -------- | ---------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------ |
-| ZhongJing-OMNI              | 复旦大学             | 2024-10  | 图像、文本       | 暂无                                   | [[repo](https://github.com/pariskang/ZhongJing-OMNI)] [[data](https://huggingface.co/datasets/CMLM/ZhongJing-OMNI)]                                                                  | 暂未开源                       |
-| TCM-Ladder                  | 上海中医药大学       | 2025-05  | 图像、视频、文本 | 52,169                                 | [[paper](https://arxiv.org/abs/2505.24063)] [[repo](https://github.com/orangeshushu/TCM-Ladder)] [[data](https://huggingface.co/datasets/timzzyus/TCM-Ladder)]                       | 单诊独立评估                   |
-| TCM-Text-Exams (ShizhenGPT) | 港中深FreedomAl      | 2025-08  | 文本             | 1088                                   | [[paper](https://arxiv.org/abs/2508.14706)] [[repo](https://github.com/FreedomIntelligence/ShizhenGPT)] [[data](https://huggingface.co/datasets/FreedomIntelligence/TCM-Text-Exams)] | 单诊独立评估，其他模态暂未开源 |
-| TCM-Tongue                  | 北京工商大学         | 2025-07  | 图像             | 5594:572:553                           | [[paper](https://arxiv.org/pdf/2507.18288)] [[repo](https://github.com/btbuIntelliSense/Intelligent-tongue-diagnosis-detection-dataset)]                                             |                                |
-| Chinese pulse pattern (TCM) | 天津职业技术师范大学 | 2023-07  | 脉象             | 滑脉 413 例，弦脉 365 例，沉脉 1980 例 | [[data](https://www.scidb.cn/detail?dataSetId=05669defa1344275b6f4557c771d131c)]                                                                                                     | 需要申请                       |
+| **数据集**                  | **机构**             | **时间** | **多模态**       | **Size**     | **Source**                                                   | **备注**                       |
+| --------------------------- | -------------------- | -------- | ---------------- | ------------ | ------------------------------------------------------------ | ------------------------------ |
+| ZhongJing-OMNI              | 复旦大学             | 2024-10  | 图像、文本       | 暂无         | [[repo](https://github.com/pariskang/ZhongJing-OMNI)] [[data](https://huggingface.co/datasets/CMLM/ZhongJing-OMNI)] | 暂未开源                       |
+| TCM-Ladder                  | 上海中医药大学       | 2025-05  | 图像、视频、文本 | 52,169       | [[paper](https://arxiv.org/abs/2505.24063)] [[repo](https://github.com/orangeshushu/TCM-Ladder)] [[data](https://huggingface.co/datasets/timzzyus/TCM-Ladder)] | 单诊独立评估                   |
+| ShizhenGPT Benchmark        | 港中深FreedomAl      | 2025-08  | 图像、文本       | 1088         | [[paper](https://arxiv.org/abs/2508.14706)] [[repo](https://github.com/FreedomIntelligence/ShizhenGPT)] | 单诊独立评估，其他模态暂未开源 |
+| TCM-Tongue                  | 北京工商大学         | 2025-07  | 图像             | 5594:572:553 | [[paper](https://arxiv.org/pdf/2507.18288)] [[repo](https://github.com/btbuIntelliSense/Intelligent-tongue-diagnosis-detection-dataset)] | 包含目标检测                   |
+| Chinese pulse pattern (TCM) | 天津职业技术师范大学 | 2023-07  | 脉象             | 暂无         | [[data](https://www.scidb.cn/detail?dataSetId=05669defa1344275b6f4557c771d131c)] | 需要申请                       |
 
+### 文本
+
+| **数据集** | **机构**     | **时间** | **类型** | **Size** | **Source**                                                   | **备注** |
+| ---------- | ------------ | -------- | -------- | -------- | ------------------------------------------------------------ | -------- |
+| TCMBench   | 华东师范大学 | 2024-06  |          |          | [[paper](https://arxiv.org/pdf/2406.01126)] [[repo](https://github.com/ywjawmw/TCMBench)] |          |
+| MTCMB      | 中山大学     | 2025-05  |          |          | [[repo](https://github.com/Wayyuanyuan/MTCMB)]               |          |
 
 # 综述
 
